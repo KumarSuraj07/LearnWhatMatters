@@ -1,0 +1,133 @@
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search input {
+    padding: 20px 40px;
+    width: 40%;
+    margin-top: 50px;
+    border: none;
+    border-bottom: 1px solid rgba(74, 74, 74, 0.483);
+}
+
+input:focus {
+    outline: none;
+}
+
+.search img {
+    margin-top: -30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardBorder {
+    padding: 40px 50px;
+}
+
+.card1 {
+    width: 240px;
+    height: 420px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card2 {
+    width: 240px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card3 {
+    width: 240px;
+    height: 420px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card4 {
+    width: 240px;
+    height: 420px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card1 img {
+    width: 150px;
+    padding-bottom: 20px;
+}
+
+.card2 img {
+    width: 300px;
+    padding-bottom: 15px;
+}
+
+.card3 img {
+    width: 200px;
+    margin-top: -10px;
+}
+
+.card3 p {
+    margin-top: -20px;
+}
+
+.card4 img {
+    width: 200px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 8px 30px;
+    background-color: #117fd8;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 600px) {
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .cardBorder{
+        padding: 40px;
+    }
+
+    .search input{
+        width: auto;
+    }
+
+}
